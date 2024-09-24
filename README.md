@@ -1,1 +1,2 @@
 # RaspberryPi_pico_calculator_
+A simple calculator, built on a Raspberry Pi Pico, utilizes a 4x4 matrix keypad for input. Numbers are entered using the keypad, while operators (A: +, B: -, C: , D: /) are selected via corresponding keys. The '' key clears the input, and '#' evaluates the expression. The result is displayed serially. The code handles division by zero and uses debouncing for accurate key detection.
